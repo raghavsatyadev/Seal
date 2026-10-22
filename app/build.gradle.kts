@@ -26,7 +26,7 @@ val baseVersionName = currentVersion.name
 val currentVersionCode = currentVersion.code.toInt()
 
 android {
-    compileSdk = 35
+    compileSdk = 36
 
     if (keystorePropertiesFile.exists()) {
         val keystoreProperties = Properties()
